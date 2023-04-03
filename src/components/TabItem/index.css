@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.button-container {
+  list-style-type: none;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.button {
+  height: 40px;
+  width: 100px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 0px;
+  margin-left: 0px;
+  border-bottom: 2px solid #dfe2e5;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #7b8794;
+  background-color: transparent;
+}
+.button1 {
+  height: 40px;
+  width: 100px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 0px;
+  margin-left: 0px;
+  border-bottom: 2px solid #2563eb;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #2563eb;
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  .button {
+    width: 120px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .button1 {
+    width: 120px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+}
